@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0; padding: 0;}
+
+
+
+/* esto son las propiedades del fondo de la imagen y el color de la letra en general al igual que la familia tipografica, si es que no se modifica en class*/
+body {background-image: url("../IMG/Fondo 1.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; text-align: center; color: rgba(218,218,218,1.00); font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"}
+
+
+
+/* esto es la cajita de color transparente*/
+.wrapper {background-color: rgba(24,23,25,0.58);  width: 1000px; margin-left: auto; margin-right: auto;}
+
+
+
+/* esto es de derechos de autor con su color y propiedades*/
+footer {font-size: 10px; background-color: rgba(24,23,25,1.00); height: 50px; line-height: 50px; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; color: rgba(255,255,255,1.00) }
+
+
+/* esto son las propiedades del mundo el color*/
+.menu {background-color: rgba(24,23,25,1.00); height: 220px; font-size: 15px; }
+/* esto es del menu para no ordenar y que no salgan puntitos o numeracion, lo desaparece*/
+ul {list-style-type: none;}
+
+li {width: 199px; float: left; border-left: 1px dotted rgba(170,39,214,1.00); line-height: 25px; }
+#borde {border-left: none; }
+
+h3 {font-size: 60px; line-height: 150px;}
+
+
+.fondos {background-color: rgba(24,23,25,1.00); width: 800px; margin-left: auto; margin-right: auto; padding: 50px; margin: 50px;}
+.fondos p {text-align: justify}
+
+
+
+
+h1 {color: rgba(186,127,207,1.00); border-top: 1px dotted rgba(126,126,126,1.00); border-bottom: 1px dotted rgba(126,126,126,1.00); width: 333px; margin-right: auto; margin-left: auto; line-height: 50px;}
+
+
+/* Esto es para modificar las propiedades de la seccion de album*/
+
+.Albums {width: 317px; height: 380px; background-color: rgba(39,37,40,1.00); color: rgba(142,141,141,1.00); box-shadow: 10px 10px 20px black; float: left; margin: 8px;}
+
+/*valores de box-shadow: x, y, difuminado y color*/
+
+
+.clear {clear: both; }
+
+a {text-decoration: none; color: rgba(255,255,255,1.00); }
+
+a:hover { color: rgba(170,39,214,1.00); font-size: 19px; }
+
+.PORTADA { color: rgba(255,255,255,1.00); font-size: 60px; }
+
+.comienzo { color: rgba(255,255,255,1.00); font-size: 18px;}
+.comienzo {text-align: start; }
+
